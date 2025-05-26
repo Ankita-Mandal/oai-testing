@@ -1,0 +1,112 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Windsurf and IDE files
+.windsurf-server/
+.codeium/
+.vscode/
+.idea/
+.vs/
+*.sublime-*
+*.swp
+*.swo
+.DS_Store
+
+# Large system files
+node_modules/
+.npm/
+.yarn/
+.cache/
+.config/
+.local/
+
+# Large binary files
+*.bin
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+*.out
+
+# Database files
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Media files (often large)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+
+# Specific to OAI and UHD (add more as needed)
+*.dat
+*.mat
+*.pcap
+*.raw
+
+# Git LFS files (files larger than 100MB)
+# If you decide to use Git LFS, uncomment these
+# *.lfs
+# *.lfs.*
+
+# Specific directories to ignore
+.git/
+.github/
+.gitlab/
+.circleci/
