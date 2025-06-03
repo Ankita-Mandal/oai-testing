@@ -254,3 +254,177 @@ sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF
 sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E
 uhd_usrp_probe --args="addr=192.168.40.18"
 sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+git init
+ls
+git status
+git add .
+git commit -m "Initial commit: Add OAI and UHD configuration files"
+git config --global user.name "Ankita Mandal"
+git commit -m "Initial commit: Add OAI and UHD configuration files"
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+logs/
+EOF
+
+git add .gitignore
+git commit -m "Add .gitignore file"
+git remote add origin https://github.com/Ankita-Mandal/oai-testing.git
+git push -u origin master
+git status
+rm -rf .git
+git status
+git init
+git status
+git add .
+pip freeze > requirements.txt
+git add requirements.txt 
+git commit -m "Initial commit"
+git remote add origin https://github.com/Ankita-Mandal/oai-testing.git
+git push -u origin master
+git remote set-url origin https://github.com/Ankita-Mandal/oai-testing.git
+git push -u origin master
+git config --global user.name "Ankita Mandal"
+git push -u origin master
+git credential-cache exit
+git push -u origin master
+git status
+git remote add origin https://github.com/Ankita-Mandal/oai-testing.git
+git branch -M main
+git push -u origin main
+ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+ssh-keygen -t rsa -b 4096 -C "anki.mandal@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+git remote set-url origin git@github.com:Ankita-Mandal/oai-testing.git
+git push -u origin master
+git branch
+git push -u origin main
+git status
+git add openairinterface5g/
+git status
+git commit -m "OAI config"
+git push origin main
+uhd_usrp_probe --args="addr=192.168.40.18"
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1
+ping 10.112.10051
+ping 10.112.100.51
+ip addrs
+ip addr
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1
+uhd_usrp_probe --args="addr=192.168.40.18"
+uhd_usrp_probe
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+cd ~/openairinterface5g/cmake_targets
+./build_oai -c
+./build_oai -w USRP --gNB
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+uhd_usrp_probe --args="addr=192.168.40.18"
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+chmod +x ~/set_udp_buffers.sh ~/run_gnb_x410.sh
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+uhd_find_devices 
+uhd_usrp_probe --args="addr=192.168.40.18"
+ping 192.168.40.18
+ip addr show
+sudo sysctl -w net.core.rmem_max=250000000
+sudo sysctl -w net.core.wmem_max=250000000
+uhd_usrp_probe --args="addr=192.168.40.18"
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+uhd_usrp_probe --args="addr=192.168.40.18"
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+sudo sysctl -w net.core.wmem_max=250000000
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo sysctl -w net.core.wmem_max=250000000
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --gNBs.[0].min_rxtxtime 6 --usrp-tx-thread-config 1 -d
+ls
+uhd_find_devices 
+uhd_usrp_probe --args="addr=192.168.40.20"
+uhd_usrp_probe --args="addr=192.168.40.18"
+pring 192.168.40.18
+ping 192.168.40.18
+uhd_usrp_probe --args="addr=192.168.40.18"
+cd /home/ankita/openairinterface5g
+sudo ./targets/bin/nr-softmodem -O targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa --continuous-tx
+cd /home/ankita/openairinterface5g
+cd ~/openairinterface5g/cmake_targets/ran_build/build
+sudo ./nr-softmodem -O ~/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx410.conf --sa -E --continuous-tx
+uhd_usrp_probe --args="addr=192.168.40.34"
+ping 10112.100.52
+ping 10.112.100.52
+cd /home/ankita/openairinterface5g
+source oaienv
+cd cmake_targets/ran_build/build
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band77.fr1.273PRB.usrpx300.conf --sa -E
+cd /home/ankita/openairinterface5g
+source oaienv
+cd cmake_targets/ran_build/build
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E --continuous-tx
+ping 10.112.100.52
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E --continuous-tx
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E 
+uhd_usrp_probe --args="addr=192.168.40.34"
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E 
+cd cmake_targets/ 
+cd ..
+./build_oai -I --nr-softmodem -x
+./build_oai -I --nr --gNB --UE
+./build_oai -I --gNB --UE
+ls
+cd ran_build/build/
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E 
+uhd_usrp_probe --args="addr=192.168.40.34,sample_rate=61.44e6,master_clock_rate=122.88e6"
+uhd_usrp_probe --args="addr=192.168.40.34,clock_source=internal,time_source=internal,sample_rate=61.44e6,master_clock_rate=122.88e6,dboard_clk_rate=122.88e6"
+uhd_usrp_probe --args="addr=192.168.40.34,clock_source=internal,time_source=internal,sample_rate=61.44e6,master_clock_rate=122.88e6,dboard_clk_rate=122.88e6";
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E 
+uhd_usrp_probe --args="addr=192.168.40.34,clock_source=internal,time_source=internal,sample_rate=61.44e6,master_clock_rate=122.88e6,dboard_clk_rate=122.88e6";
+uhd_usrp_probe --args="addr=192.168.40.34,clock_source=internal,time_source=internal,master_clock_rate=122.88e6"
+uhd_usrp_probe --args="addr=192.168.40.34,clock_source=internal,time_source=internal,sample_rate=61.44e6,master_clock_rate=122.88e6"
+uhd_usrp_probe --args="addr=192.168.40.34,clock_source=internal,time_source=internal,sample_rate=61.44e6"
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E 
+uhd_usrp_probe --args="addr=192.168.40.34,clock_source=internal,time_source=internal,sample_rate=61.44e6,dboard_clk_rate=122.88e6"
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E 
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band77.fr1.273PRB.usrpx300.conf --sa -E
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E 
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.162PRB.usrpx300.conf --sa -E --coninuous-tx
+sudo ./nr-softmodem -O /home/ankita/openairinterface5g/targets/PROJECTS/GENERIC-NR-5GC/CONF/gnb.sa.band78.fr1.273PRB.usrpx300.conf --sa -E --coninuous-tx
